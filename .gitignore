@@ -7,3 +7,19 @@ Cloud_Project_Proposal.docx
 Architecture_Diagram.png
 SecuriCAP/secret.h
 OV2640/
+
+
+# for securicap-expo
+node_modules/**/*
+.expo/*
+npm-debug.*
+*.jks
+*.p8
+*.p12
+*.key
+*.mobileprovision
+*.orig.*
+web-build/
+
+# macOS
+.DS_Store
