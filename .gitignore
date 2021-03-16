@@ -10,16 +10,16 @@ OV2640/
 
 
 # for securicap-expo
-node_modules/**/*
-.expo/*
-npm-debug.*
-*.jks
-*.p8
-*.p12
-*.key
-*.mobileprovision
-*.orig.*
-web-build/
+securicap-expo/node_modules/**/*
+securicap-expo/.expo/*
+securicap-expo/npm-debug.*
+securicap-expo/*.jks
+securicap-expo/*.p8
+securicap-expo/*.p12
+securicap-expo/*.key
+securicap-expo/*.mobileprovision
+securicap-expo/*.orig.*
+securicap-expo/web-build/
 
 # macOS
-.DS_Store
+securicap-expo/.DS_Store
