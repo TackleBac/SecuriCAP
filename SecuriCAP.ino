@@ -25,11 +25,11 @@ boolean incidentFlag()
     if (touchVal > 10) {
       touchVal = touchVal - 10;           // we want the touch value to decrease
       Serial.println(touchVal);
-      delay(1000);                        // delay here is long so that the touch value decreases at a slower rate than it increases
+      delay(1000);                        // delay here is long so that the touch value d3ecreases at a slower rate than it increases
     }
   }
 
-  if (touchVal == incidentThresh) {        // if above threshold
+  if (touchVal > incidentThresh) {        // if above threshold
     return true;
   } else {
     return false;
@@ -127,5 +127,5 @@ void loop()
     Serial.println("Message send func to AWS finished");
   }
   client.loop();
-//  delay(1000);
+  delay(1000);
 }
